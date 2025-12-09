@@ -13,4 +13,9 @@ public class SimpleCalculator {
 	public int product(int i, int j) {
 		return i*j;
 	}
+	
+	public int quotient(int i, int j) {
+		return i/j;
+	}
 }
+

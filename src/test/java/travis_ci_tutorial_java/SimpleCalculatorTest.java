@@ -25,5 +25,12 @@ public class SimpleCalculatorTest {
         int result = calc.product(5, 3); 
         assertEquals(15, result);
     }
+	
+	@Test
+    public void testQuotient() {
+        SimpleCalculator calc = new SimpleCalculator();
+        int result = calc.quotient(12, 3); 
+        assertEquals(4, result);
+	}
 }
-}
+
