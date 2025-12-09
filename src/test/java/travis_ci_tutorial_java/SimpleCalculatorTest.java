@@ -18,4 +18,12 @@ public class SimpleCalculatorTest {
         int result = calc.minus(5, 3); 
         assertEquals(2, result);
     }
+	
+	@Test
+    public void testProduct() {
+        SimpleCalculator calc = new SimpleCalculator();
+        int result = calc.product(5, 3); 
+        assertEquals(15, result);
+    }
+}
 }
